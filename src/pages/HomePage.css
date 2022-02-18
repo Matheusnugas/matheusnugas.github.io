@@ -1,0 +1,91 @@
+::selection {
+    color: white;
+    background: #772CE8;
+  }
+
+.wrapper {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    gap: 120px;
+}
+
+.introContainer {
+    font-size: 1.6em;
+}
+
+.intro {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.4em;
+    letter-spacing: 1.5px;
+}
+
+.hello {
+    color: #772CE8;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+}
+
+.trybeSpan {
+    font-size: 1.2em;
+    color: #772CE8;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5px;
+}
+
+.htmlCloser {
+    color: #772CE8;
+}
+
+.slogan, .links {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 0.7em;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links p {
+    padding: 10px;
+}
+
+.blink {
+    color: #772CE8;
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .heroImage {
+      width: 500px;
+  }
+
+  .octocat {
+      width: 50px;
+      transition: 0.3s;
+  }
+
+  .linkedin {
+      width: 50px;
+      transition: 0.3s;
+  }
+
+  .octocat:hover, .linkedin:hover {
+      transform: scale(1.5);
+  }

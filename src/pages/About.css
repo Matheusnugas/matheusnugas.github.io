@@ -1,0 +1,32 @@
+.aboutWrapper {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: start;
+    width: 70%;
+    gap: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 45px
+}
+
+.aboutWrapper span {
+    color: #772CE8;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2em;
+    letter-spacing: 1.5px;
+}
+
+.aboutWrapper {
+    font-size: 1.5em;
+}
+
+.selfie {
+    width: 250px;
+    border: 1px solid #772CE8;
+    border-radius: 50%;
+}

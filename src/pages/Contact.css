@@ -1,0 +1,103 @@
+.contactWrapper textArea {
+    resize: none;
+    width: 300px;
+    height: 150px;
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+    border-bottom: 1px solid;
+    border-color: #772CE8;
+    background-color: #1D1C21;
+    border-radius: 8px;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+}
+
+.contactWrapper textArea:focus {
+    outline: 1px solid #772CE8
+}
+
+.formWrapper {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: start;
+    width: 80%;
+    gap: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.formWrapper form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.formWrapper form input {
+    border-style: none;
+    background-color: #1D1C21;
+    width: 300px;
+    height: 25px;
+    outline: none;
+    border-bottom: 1px solid;
+    border-color: #772CE8;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+}
+
+.formWrapper form input:focus {
+    outline: 1px solid #772CE8
+}
+
+.contactImg {
+    width: 500px;
+    /* height: 90%; */
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+    font-family: Roboto, sans-serif;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+    font-family: Roboto, sans-serif;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+    font-family: Roboto, sans-serif;
+  }
+  
+  .contactLinkWrap {
+      margin-top: 20px;
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+  }
+
+  .formButton {
+      margin-top: 20px;
+      align-self: center;
+      width: 30%;
+      height: 30px;
+      background-color: #772CE8;
+      border-radius: 10px;
+      border: none;
+      font-weight: bold;
+      outline: none;
+      cursor: pointer;
+  }
