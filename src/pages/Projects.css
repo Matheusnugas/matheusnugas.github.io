@@ -15,6 +15,8 @@
     cursor: pointer;
     transition: 0.2s;
     border-radius: 6px;
+    max-width: 500px;
+    height: 250px;
 }
 
 .projectDiv:hover {
@@ -28,6 +30,7 @@
 }
 
 .projectDiv img{
-    width: 300px;
+    width: 350px;
+    height: 200px;
     padding: 15px;
 }
