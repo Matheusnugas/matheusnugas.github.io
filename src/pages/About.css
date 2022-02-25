@@ -1,17 +1,49 @@
+@media (min-width:700px) {
+    .aboutWrapper {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: start;
+        width: 70%;
+        gap: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 45px
+    }
+    
+    .aboutWrapper span {
+        color: #772CE8;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.2em;
+        letter-spacing: 1.5px;
+    }
+    
+    .aboutWrapper {
+        font-size: 1.5em;
+    }
+    
+    .selfie {
+        width: 250px;
+        border: 1px solid #772CE8;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width:700px) {
 .aboutWrapper {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     text-align: start;
-    width: 70%;
-    gap: 80px;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    line-height: 45px
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-decoration: center;
+    text-align: center;
+    margin-top: 15%;
+    gap: 50px;
 }
 
 .aboutWrapper span {
@@ -21,12 +53,18 @@
     letter-spacing: 1.5px;
 }
 
+.aboutText {
+    margin: 0 8px;
+    line-height: 1.5em;
+}
+
 .aboutWrapper {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .selfie {
-    width: 250px;
-    border: 1px solid #772CE8;
+    width: 200px;
+    border: 2px solid #772CE8;
     border-radius: 50%;
+}
 }

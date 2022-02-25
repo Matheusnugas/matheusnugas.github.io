@@ -1,91 +1,180 @@
-::selection {
-    color: white;
-    background: #772CE8;
-  }
-
-.wrapper {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    gap: 120px;
-}
-
-.introContainer {
-    font-size: 1.6em;
-}
-
-.intro {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 1.4em;
-    letter-spacing: 1.5px;
-}
-
-.hello {
-    color: #772CE8;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 1em;
-    letter-spacing: 1.5px;
-}
-
-.trybeSpan {
-    font-size: 1.2em;
-    color: #772CE8;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 1.5px;
-}
-
-.htmlCloser {
-    color: #772CE8;
-}
-
-.slogan, .links {
-    text-align: center;
-    margin-top: 35px;
-    font-size: 0.7em;
-}
-
-.links {
-    display: flex;
-    justify-content: center;
-}
-
-.links p {
-    padding: 10px;
-}
-
-.blink {
-    color: #772CE8;
-    animation: blinker 1s linear infinite;
-  }
-  
-  @keyframes blinker {
-    50% {
-      opacity: 0;
+@media (min-width:700px) {
+    ::selection {
+        color: white;
+        background: #772CE8;
+      }
+    
+    .wrapper {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        gap: 120px;
     }
-  }
+    
+    .introContainer {
+        font-size: 1.6em;
+    }
+    
+    .intro {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.4em;
+        letter-spacing: 1.5px;
+    }
+    
+    .hello {
+        color: #772CE8;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1em;
+        letter-spacing: 1.5px;
+    }
+    
+    .trybeSpan {
+        font-size: 1.2em;
+        color: #772CE8;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 1.5px;
+    }
+    
+    .htmlCloser {
+        color: #772CE8;
+    }
+    
+    .slogan, .links {
+        text-align: center;
+        margin-top: 35px;
+        font-size: 0.7em;
+    }
+    
+    .links {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .links p {
+        padding: 10px;
+    }
+    
+    .blink {
+        color: #772CE8;
+        animation: blinker 1s linear infinite;
+      }
+      
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+    
+      .heroImage {
+          width: 500px;
+      }
+    
+      .octocat {
+          width: 50px;
+          transition: 0.3s;
+      }
+    
+      .linkedin {
+          width: 50px;
+          transition: 0.3s;
+      }
+    
+      .octocat:hover, .linkedin:hover {
+          transform: scale(1.5);
+      }
+}
 
-  .heroImage {
-      width: 500px;
-  }
+@media (max-width:700px) {
+    ::selection {
+        color: white;
+        background: #772CE8;
+      }
 
-  .octocat {
-      width: 50px;
-      transition: 0.3s;
-  }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-decoration: center;
+        text-align: center;
+    }
+    
+    /* .introContainer {
+        font-size: 1.6em;
+    } */
+    
+    .intro {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.4em;
+        text-align: center;
+        letter-spacing: 1.2px;
+        margin-top: 25%;
+    }
+    
+    .hello {
+        color: #772CE8;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1em;
+        /* letter-spacing: 1.5px; */
+    }
+    
+    .trybeSpan {
+        font-size: 1.2em;
+        color: #772CE8;
+        font-family: 'Bebas Neue', cursive;
+        /* letter-spacing: 1.5px; */
+    }
+    
+    .htmlCloser {
+        color: #772CE8;
+    }
+    
+    .slogan, .links {
+        text-align: center;
+        margin-top: 35px;
+        font-size: 1em;
+        gap: 15%;
+        font-weight: bolder;
+    }
 
-  .linkedin {
-      width: 50px;
-      transition: 0.3s;
-  }
+    .links {
+        display: flex;
+        justify-content: center;
+    } 
 
-  .octocat:hover, .linkedin:hover {
-      transform: scale(1.5);
-  }
+    .blink {
+        color: #772CE8;
+        animation: blinker 1s linear infinite;
+      }
+      
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+    
+      .heroImage {
+          width: 350px;
+      }
+    
+      .octocat {
+          width: 40px;
+          transition: 0.3s;
+      }
+    
+      .linkedin {
+          width: 40px;
+          transition: 0.3s;
+      }
+    
+      .octocat:hover, .linkedin:hover {
+          transform: scale(1.5);
+      }
+}

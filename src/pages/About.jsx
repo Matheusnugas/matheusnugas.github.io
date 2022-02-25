@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="aboutWrapper">
       <div>
-        <p>
+        <p className="aboutText">
           Hello visitor! My name is <span>Matheus</span>. I am a Brazil 🇧🇷 based
           front-end developer. Ever since I was a kid, I dreamed of leaving a
           mark in this world. I believe that with technology, it might just be

@@ -10,7 +10,7 @@ function NavBar() {
           m<span className="midLetter">L</span>n
         </span>
       </Link>
-      <ul>
+      <ul id="navList">
         <Link to="/">
           <li className="navList">Home</li>
         </Link>
