@@ -2,6 +2,7 @@ import React from "react";
 import todoListImg from "../images/todolistimg.png";
 import walletImg from "../images/walletImage.png";
 import memeGen from "../images/memeGen.png";
+import onlineStore from "../images/onlineStore.png";
 import "./Projects.css";
 
 function Projects() {
@@ -23,6 +24,12 @@ function Projects() {
         <div className="projectDiv">
           <img src={memeGen} alt="projectImg" />
           <p>React Meme Generator</p>
+        </div>
+      </a>
+      <a href="https://mlnonlinestore.vercel.app/">
+        <div className="projectDiv">
+          <img src={onlineStore} alt="projectImg" className="onlineStoreImg" />
+          <p>React/Context API Mercado Livre Store</p>
         </div>
       </a>
     </div>
