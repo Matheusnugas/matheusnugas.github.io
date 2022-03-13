@@ -3,6 +3,7 @@ import todoListImg from "../images/todolistimg.png";
 import walletImg from "../images/walletImage.png";
 import memeGen from "../images/memeGen.png";
 import onlineStore from "../images/onlineStore.png";
+import adviceGenerator from "../images/adviceGenerator.png";
 import "./Projects.css";
 
 function Projects() {
@@ -30,6 +31,16 @@ function Projects() {
         <div className="projectDiv">
           <img src={onlineStore} alt="projectImg" className="onlineStoreImg" />
           <p>React/Context API Mercado Livre Store</p>
+        </div>
+      </a>
+      <a href="https://mlnadvicegenerator.vercel.app/">
+        <div className="projectDiv">
+          <img
+            src={adviceGenerator}
+            alt="projectImg"
+            className="adviceGenImg"
+          />
+          <p>React Advice Generator</p>
         </div>
       </a>
     </div>
