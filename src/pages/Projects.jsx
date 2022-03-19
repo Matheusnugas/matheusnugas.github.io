@@ -4,6 +4,7 @@ import walletImg from "../images/walletImage.png";
 import memeGen from "../images/memeGen.png";
 import onlineStore from "../images/onlineStore.png";
 import adviceGenerator from "../images/adviceGenerator.png";
+import spaceTourism from "../images/spaceTourism.png";
 import "./Projects.css";
 
 function Projects() {
@@ -13,6 +14,12 @@ function Projects() {
         <div className="projectDiv">
           <img src={todoListImg} alt="projectImg" />
           <p>React/Context API Todo-List</p>
+        </div>
+      </a>
+      <a href="https://mlnspacetourism.vercel.app//">
+        <div className="projectDiv">
+          <img src={spaceTourism} alt="projectImg" />
+          <p>React Space Tourism Page</p>
         </div>
       </a>
       <a href="https://mlnreduxwallet.vercel.app/">
