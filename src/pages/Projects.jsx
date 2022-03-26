@@ -5,6 +5,7 @@ import memeGen from "../images/memeGen.png";
 import onlineStore from "../images/onlineStore.png";
 import adviceGenerator from "../images/adviceGenerator.png";
 import spaceTourism from "../images/spaceTourism.png";
+import countriesAPI from "../images/countriesAPI.png";
 import "./Projects.css";
 
 function Projects() {
@@ -26,6 +27,12 @@ function Projects() {
         <div className="projectDiv">
           <img src={walletImg} alt="projectImg" />
           <p>React/Redux Expense Tracker</p>
+        </div>
+      </a>
+      <a href="https://mlncountriesapp.vercel.app/">
+        <div className="projectDiv">
+          <img src={countriesAPI} alt="projectImg" />
+          <p>React Countries API V3 App</p>
         </div>
       </a>
       <a href="https://mlnmemegenerator.vercel.app/">
