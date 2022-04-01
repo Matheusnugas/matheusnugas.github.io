@@ -1,11 +1,12 @@
 import React from "react";
-import todoListImg from "../images/todolistimg.png";
-import walletImg from "../images/walletImage.png";
+import adviceGenerator from "../images/adviceGenerator.png";
+import countriesAPI from "../images/countriesAPI.png";
 import memeGen from "../images/memeGen.png";
 import onlineStore from "../images/onlineStore.png";
-import adviceGenerator from "../images/adviceGenerator.png";
 import spaceTourism from "../images/spaceTourism.png";
-import countriesAPI from "../images/countriesAPI.png";
+import todoListImg from "../images/todolistimg.png";
+import todoListV2 from "../images/todoListv2.png";
+import walletImg from "../images/walletImage.png";
 import "./Projects.css";
 
 function Projects() {
@@ -15,6 +16,12 @@ function Projects() {
         <div className="projectDiv">
           <img src={todoListImg} alt="projectImg" />
           <p>React/Context API Todo-List</p>
+        </div>
+      </a>
+      <a href="https://mlntodolistv2.vercel.app/">
+        <div className="projectDiv">
+          <img src={todoListV2} alt="projectImg" />
+          <p>React/Context API Todo-List V2 </p>
         </div>
       </a>
       <a href="https://mlnspacetourism.vercel.app//">
